@@ -7,6 +7,7 @@ URL:		https://github.com/google/magika
 License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:  python3dist(hatchling)
 BuildRequires:  pkgconfig(libonnxruntime)
 Requires:  python3dist(click)
 Requires:  python3dist(python-dotenv)
