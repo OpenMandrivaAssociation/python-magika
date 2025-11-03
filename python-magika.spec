@@ -24,3 +24,7 @@ Magika has been trained and evaluated on a dataset of ~100M samples across 200+ 
 and it achieves an average ~99% accuracy on our test set.
 
 %files
+%{_bindir}/magika
+%{_bindir}/magika-python-client
+%{python_sitelib}/magika-%{version}.dist-info
+%{python_sitelib}/magika/
