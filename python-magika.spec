@@ -1,6 +1,6 @@
 Name:		python-magika
-Version:	1.0.1
-Release:	2
+Version:	1.0.3
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/m/magika/magika-%{version}.tar.gz
 Summary:	A tool to determine the content type of a file with deep learning
 URL:		https://github.com/google/magika
