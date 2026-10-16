@@ -7,12 +7,14 @@ URL:		https://github.com/google/magika
 License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python
-BuildRequires:  python3dist(hatchling)
-BuildRequires:  pkgconfig(libonnxruntime)
-Requires:  python3dist(click)
-Requires:  python3dist(python-dotenv)
-Requires:  python3dist(numpy)
-Requires:  python3dist(onnxruntime)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(hatchling)
+BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	pkgconfig(libonnxruntime)
+Requires:	python%{pyver}dist(click)
+Requires:	python%{pyver}dist(python-dotenv)
+Requires:	python%{pyver}dist(numpy)
+Requires:	python%{pyver}dist(onnxruntime)
 
 BuildSystem:	python
 BuildArch:	noarch
